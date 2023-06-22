@@ -1,0 +1,30 @@
+{% extends "base.html" %} {% block title %}Crypto Price Predictor{% endblock %}
+
+{% block content %}
+<div style="height: 100px;">
+</div>
+<h1 style="text-align: center;">Crypto Currency Price Predictor</h1>
+<div style="height: 100px;">
+</div>
+
+<div class="currency-box" style="align-items: center;">
+    <table class="table-class">
+        <tr>
+            <td class="table-cell"><a href="/prices/btc" class="cell-link"><b>Bitcoin</b><br>(BTC)</a></td>
+            <td class="table-cell"><a href="/prices/eth" class="cell-link"><b>Etherium</b><br>(ETH)</a></td>
+            <td class="table-cell"><a href="/prices/bnb" class="cell-link"><b>Binance</b><br>(BNB)</a></td>
+            <td class="table-cell"><a href="/prices/ada" class="cell-link"><b>Cardano</b><br>(ADA)</a></td>
+        </tr>
+        <tr>
+            <td class="table-cell"><a href="/prices/doge" class="cell-link"><b>Dogecoin</b> <br>(DOGE)</a></td>
+            <td class="table-cell"><a href="/prices/sol" class="cell-link"><b>Solana</b><br>(SOL)</a></td>
+            <td class="table-cell"><a href="/prices/dot" class="cell-link"><b>Polkadot</b><br>(DOT)</a></td>
+            <td class="table-cell"><a href="/prices/xpr" class="cell-link"><b>Ripple</b><br>(XRP)</a></td>
+        </tr>
+        
+      </table>
+</div>
+
+
+
+{% endblock %}

@@ -1,0 +1,21 @@
+{% extends "base.html" %} {% block title %}BNB Price Forecast{% endblock %} {% block
+content %}
+
+<div style="height: 50px;"></div>
+    <h2 class="currency-price">Binance Coin Price Forecast</h2>
+    <div style="height: 20px;"></div>
+
+    <p class="coin-desc">
+      End Date              :{{end_date}}<br>
+      Actual Price    (USD) : {{end_actual_price}}<br>
+      Predicted Price (USD) : {{end_predicted_price}}
+      </p>
+
+<div class="chart" id="bargraph">
+  <script>
+    var graphs = {{ graphJSON | safe}};
+    Plotly.plot('bargraph',graphs,{})
+  </script>
+</div>
+
+{% endblock %}

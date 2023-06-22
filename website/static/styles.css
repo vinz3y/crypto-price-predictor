@@ -1,0 +1,60 @@
+div.title-space{
+    height: 200px;
+}
+
+.currency-box{
+    height: 200px;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.table-class{
+    border-collapse: separate;
+    border-spacing: 15px 15px;
+    
+}
+.table-cell{
+    height: 125px;
+    width: 150px;
+    background-color:aliceblue;
+    border: 1px white;
+    border-radius: 25px;
+}
+
+.cell-link{
+    text-decoration: none;
+}
+
+
+td {
+    text-align: center;
+    
+  }
+
+h2.currency-price{
+    text-align: center;
+}
+
+.chart-align{
+    align-items: center;
+    margin: auto;
+}
+
+.coin-desc{
+    font-size: 20px;
+    text-align: center;
+}
+
+
+.login-box{
+    height: 500px;
+    width: 600px;
+    margin: auto;
+}
+
+.signup-box{
+    height: 500px;
+    width: 600px;
+    margin: auto;
+}
