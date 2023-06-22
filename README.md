@@ -1,7 +1,7 @@
 # Cryptocurrency Price Predictor
 
 This project contains a cryptocurrency price predictor which uses an LSTM to predict future cryptocurrency prices using time series data. It is created using python flask and TensorFlow frameworks. It predicts the prices of different cryptocurrencies using historical data they display the output using graphs comparing the actual vs predicted graphs.
-<br>
+<be><br>
 <img src="https://i.ibb.co/G05XDxF/image.png" alt="image" border="0">
 <br>
 ## Methodology
