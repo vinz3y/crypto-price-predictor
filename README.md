@@ -6,15 +6,12 @@ This project contains a cryptocurrency price predictor which uses an LSTM to pre
 
 ## Methodology
 ### 1. Dataset Selection
-<br>
-![image](https://github.com/vinz3y/crypto-price-predictor/assets/68130377/4ed68d14-cbb7-423b-a685-5f8f601cc824)
+<img src="https://github.com/vinz3y/crypto-price-predictor/assets/68130377/4ed68d14-cbb7-423b-a685-5f8f601cc824"  border="0">
 
 ### 2. Dataset Preprocessing
-<br>
-![image](https://github.com/vinz3y/crypto-price-predictor/assets/68130377/26c66345-4feb-49de-946d-d047c009bf76)
+<img src="https://github.com/vinz3y/crypto-price-predictor/assets/68130377/26c66345-4feb-49de-946d-d047c009bf76"  border="0">
 
 ### 3. Creating and Training the Model
-<br>
 *An LSTM (Long Short Term Memory) Model is created to forecast future prices.<br>
 *It is a variety of recurrent neural networks (RNNs) that are capable of learning long-term dependencies, especially in sequence prediction problems.<br>
 *Commonly used for making predictions based on time series data.<br>
@@ -22,18 +19,15 @@ This project contains a cryptocurrency price predictor which uses an LSTM to pre
 *A Separate trained model is created for each cryptocurrency coin.<br>
 
 ### 4. Creating the Web App
-<br>
 *Flask was used to create this web application.<br>
 *All the trained models included in the path of the web application are called when forecasting the price of the relevant coin.<br>
 *Plotly which is a Python library, was used to display price prediction graphs and analyze them.<br>
 *Testing data was obtained from Yahoo Finance to get the latest prices.
 
 ## Demonstration
-<br>
 https://youtu.be/NFi8Iwb4-fw
 
 ## Frameworks Used
-<br>
 *Tensorflow<br>
 *Python Flask<br>
 *Plotly<br>
